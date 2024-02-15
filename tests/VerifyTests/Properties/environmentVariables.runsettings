@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<RunSettings>
+	<RunConfiguration>
+		<EnvironmentVariables>
+			<!-- Path to project directory, adjust based on your local path -->
+			<TemplateProjectDirectory>C:/Projects/Internal/template-tests</TemplateProjectDirectory>
+			
+			<!-- Relative to TemplateProjectDirectory -->
+			<TemplateOutputDirectory>template-output</TemplateOutputDirectory>
+			
+			<!-- Relative to TemplateProjectDirectory -->
+			<TestOutputDirectory>tests/verified</TestOutputDirectory>
+		</EnvironmentVariables>
+	</RunConfiguration>
+</RunSettings>

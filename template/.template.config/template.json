@@ -1,0 +1,19 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "Martin Eriksson",
+    "identity": "Template:TestShowcase",
+    "name": "Simple Template: Showcase Verify Tests",
+    "shortName": "test-template",
+    "sourceName": "TestTemplate",
+    "tags": {
+        "type": "project"
+    },
+    "symbols": {
+        "addIaC": {
+            "type": "parameter",
+            "datatype": "bool",
+            "description": "If enabled, add Infrastructure-as-Code to the project.",
+            "defaultValue": "false"
+        }
+    }
+}

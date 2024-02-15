@@ -1,0 +1,17 @@
+{
+    "templateName": "test-template",
+    "templateRootPath": "C:\\Projects\\Internal\\template-tests",
+    "templateFolder": "template",
+    "templateArtifact": "template-output",
+    "testOutputPath": "tests/verified",
+    "tests": [
+      {
+        "name": "addIaC_equals_true",
+        "values": "-n TestTemplate --addIaC true"
+      },
+      {
+        "name": "addIaC_equals_false",
+        "values": "-n TestTemplate --addIaC false"
+      }
+    ]
+  }
